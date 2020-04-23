@@ -14,8 +14,7 @@ class CreateItems < ActiveRecord::Migration[5.2]
       #t.references :item_img , null: false, foreign_key: true
       #t.references :category , null: false, foreign_key: true
       t.integer :trading_status, default: 0, null: false, limit: 1
-      t.references :seller, null: false, foreign_key: true
-      t.references :buyer,null: false, foreign_key: true
+      t.references :user, null: false, foreign_key: true
       t.timestamp :deal_closed_date
       t.timestamps
     end

@@ -62,3 +62,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "devise"
 gem 'active_hash'
+gem 'ancestry'
+gem 'haml-rails'
+gem 'erb2haml'
